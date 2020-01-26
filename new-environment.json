@@ -1,0 +1,89 @@
+{
+	"id": "9b2acae0-fbe4-4c1c-a85b-a9842c4c05dc",
+	"name": "New-Environment-Please-Complete-Independently",
+	"values": [
+		{
+			"key": "client_token",
+			"value": "",
+			"enabled": true
+		},
+		{
+			"key": "client_id",
+			"value": "[yourClientID]",
+			"enabled": true
+		},
+		{
+			"key": "client_secret",
+			"value": "[yourClientSecret]",
+			"enabled": true
+		},
+		{
+			"key": "uaa",
+			"value": "https://auth.aa.cityiq.io",
+			"enabled": true
+		},
+		{
+			"key": "tenant",
+			"value": "[yourTenantURLIdentifier-citynameAllLowerCase]",
+			"enabled": true
+		},
+		{
+			"key": "bbox",
+			"value": "-90:-180,90:180",
+			"enabled": true
+		},
+		{
+			"key": "parking_zone_id",
+			"value": "[yourTenantIdentifier-forPredixZoneIDOnly]-IE-PARKING",
+			"enabled": true
+		},
+		{
+			"key": "traffic_zone_id",
+			"value": "[yourTenantIdentifier-forPredixZoneIDOnly]-IE-TRAFFIC",
+			"enabled": true
+		},
+		{
+			"key": "bicycle_zone_id",
+			"value": "[yourTenantIdentifier-forPredixZoneIDOnly]-IE-BICYCLE",
+			"enabled": true
+		},
+		{
+			"key": "ped_zone_id",
+			"value": "[yourTenantIdentifier-forPredixZoneIDOnly]-IE-PEDESTRIAN",
+			"enabled": true
+		},
+		{
+			"key": "env_zone_id",
+			"value": "[yourTenantIdentifier-forPredixZoneIDOnly]-IE-ENVIRONMENTAL",
+			"enabled": true
+		},
+		{
+			"key": "em_zone_id",
+			"value": "[yourTenantIdentifier-forPredixZoneIDOnly]-IE-METROLOGY",
+			"enabled": true
+		},
+		{
+			"key": "image_zone_id",
+			"value": "[yourTenantIdentifier-forPredixZoneIDOnly]-IE-IMAGE",
+			"enabled": true
+		},
+		{
+			"key": "video_zone_id",
+			"value": "[yourTenantIdentifier-forPredixZoneIDOnly]-IE-VIDEO",
+			"enabled": true
+		},
+		{
+			"key": "startts",
+			"value": "",
+			"enabled": true
+		},
+		{
+			"key": "endts",
+			"value": "",
+			"enabled": true
+		}
+	],
+	"_postman_variable_scope": "environment",
+	"_postman_exported_at": "2019-05-15T15:05:33.739Z",
+	"_postman_exported_using": "Postman//7.0.9"
+}
