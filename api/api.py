@@ -1,6 +1,7 @@
 #!/usr/bin/env python
 import flask
 from flask import request, jsonify
+from random import random
 
 app = flask.Flask(__name__)
 app.config['DEBUG'] = True
@@ -15,7 +16,10 @@ def prediction():
     return jsonify(
         latitude = request.args['lat'],
         longitude = request.args['long'],
-        distance =  request.args['dist']
+        distance =  request.args['dist'],
+        statusIn15 = random() <= 0.5,
+        statusIn30 = random() <= 0.5,
+        statusIn45 = random() <= 0.5
     )
 
 if __name__ == "__main__":
